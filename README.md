@@ -1,2 +1,7 @@
 # python-basicexp
-Personal set of tools developed by myself.
+
+This is a collection of tools I am creating that I find useful across projects.
+
+## JavaScript File Reader
+
+This module gives you the functionality to read in JavaScript files as string.
