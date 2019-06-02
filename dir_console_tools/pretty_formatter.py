@@ -27,10 +27,10 @@ def print_symbol_rows(row_count: int, count: int, symbol: str = "~`*"):
     return None
 
 
-def print_symbols(string: str, count: int):
+def print_symbols(symbol: str, count: int):
     """Print a string or character the number of times specified
     :rtype: None
     """
     count = int(count)
-    print(string * count)
+    print(symbol * count)
     return None

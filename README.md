@@ -44,10 +44,10 @@ The count indicated the total number of characters to print and not
 the number if times to print the symbol.
 
 ```
-print_symbols(string, count)
+print_symbols(symbols, count)
 ```
 
-This function prints out symbols a number times specified
+This function prints out symbol(s) a number times specified
 
 
 
