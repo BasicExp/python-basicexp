@@ -23,7 +23,10 @@ js_string_with_logging(file_path)
 
 This function gives you the ability to read in JavaScript files as
 strings and wraps them in a try-catch block that logs errors to the 
-browser console
+browser console.
+
+This is ideal for being able to write short JS scripts and run them
+with Selenium for testing purposes.
 
 ## Pretty Formatter
 This module has simple function calls that let you format console output
