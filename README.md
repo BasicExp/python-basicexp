@@ -1,5 +1,7 @@
 # Python BasicExp
 This is a collection of tools I am creating that I find useful across projects.
+It was originally created as a way of teach my self Python but I thought it would
+be better to make something others might find useful.
 
 ## File IO Tools
 
