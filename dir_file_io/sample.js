@@ -3,5 +3,4 @@
  * file_io reader with Selenium and Python
  */
 console.log('THIS IS A TEST');
-con
 return true;
