@@ -1,6 +1,6 @@
 
 
-def print_title_with_stars(title: str, count: int = 100, symbol: str = "~`*"):
+def print_title(title: str, count: int = 100, symbol: str = "~`*"):
     """ Print a title centred with two rows of stars above and below
     :rtype None
     """
