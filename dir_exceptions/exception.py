@@ -1,10 +1,12 @@
 
-def try_executing(execute, catch):
+def try_executing(execute, catch, always=None):
     """Simple wrapper function that will try to run
     execute and will run catch for any type exception
     that is caught by Python by default
 
-    catch(exp) should take in an exception"""
+    catch(exp) should take in an exception
+    always is optional and will always execute after
+    the try block"""
     try:
         execute()
     except (EnvironmentError, ArithmeticError, EOFError, AssertionError, AttributeError, BlockingIOError,
@@ -16,3 +18,6 @@ def try_executing(execute, catch):
             TimeoutError, TypeError, UnboundLocalError, UnicodeDecodeError, UnicodeEncodeError, UnicodeError,
             UnicodeTranslateError, ValueError, WindowsError, ZeroDivisionError) as exc:
         catch(exc)
+    finally:
+        if always is not None:
+            always()

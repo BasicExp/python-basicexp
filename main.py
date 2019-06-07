@@ -54,6 +54,11 @@ if _EXCEPTIONS:
         print('EXCEPTION TYPE: ' + str(exp))
         return None
 
+    def always():
+        print('ALWAYS PRINT')
+
     try_executing(divide_by_zero, catch)
+    print()
+    try_executing(divide_by_zero, catch, always)
     print_symbol_rows(row_count, symbol_count, dividing_symbol)
 
